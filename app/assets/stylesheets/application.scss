@@ -1,2 +1,32 @@
-@import "bootstrap";
 @import "materialize";
+
+body{
+  background: #80808042;
+}
+
+.articlesGroupe{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.newArticleLink{
+  margin: 10px auto;
+}
+
+.viewArticle{
+  color: red;
+}
+
+.avlisTitle{
+  text-align: center;
+  color: #ff000096;
+  font-family: serif;
+}
+
+.card{
+  width: 49%;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 6px;
+}
