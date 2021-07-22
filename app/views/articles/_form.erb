@@ -17,7 +17,7 @@
 
   <div>
     <%= form.label :status %><br>
-    <%= form.select :status, ['public', 'private', 'archived'], selected: article.status %>
+    <%= form.select :status, %w[public private archived], selected: article.status %>
   </div>
 
   <div>
